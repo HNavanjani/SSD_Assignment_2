@@ -1,0 +1,48 @@
+.mainblock {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #1f97dd;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    }
+
+.maincenter {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-size: 16px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    }
+
+.uploadcenter {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        font-size: 16px;
+        }
+    
+.uploadblock {
+        width: 350%;
+        border: none;
+        color: white;
+        padding: 14px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+        }
+    
+.uploadblock1 {
+        width: 10%;
+        border: none;
+        background-color: #1f97dd;
+        color: white;
+        padding: 14px 25px;
+        cursor: pointer;
+        text-align: center;
+        }
