@@ -9,15 +9,50 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="upload.js"></script>
 </head>
+<style>
+    body {
+      background-image: url('uploadimg.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-size: cover;
+    }
+    .center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        font-size: 16px;
+        }
+        .block {
+        width: 350%;
+        border: none;
+        color: white;
+        padding: 14px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+        }
+        .block1 {
+        width: 10%;
+        border: none;
+        background-color: #1f97dd;
+        color: white;
+        padding: 14px 25px;
+        /* font-size: 16px; */
+        cursor: pointer;
+        text-align: center;
+        }
+</style>
 <body>
-   <div>
+   <div class="center">
+       <div class="block">
      <input id="files" type="file" name="files[]" multiple/>
-     <button id="upload">Upload</button>
+     <button class= "block1" id="upload" >Upload</button>
      <div id="progress-wrp">
         <div class="progress-bar"></div>
         <div class="status">0%</div>
     </div>
    </div> 
+</div>
    <div id="result">
        
    </div>

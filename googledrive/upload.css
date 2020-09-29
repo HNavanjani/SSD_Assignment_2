@@ -6,14 +6,14 @@
     border-radius: 3px;
     margin: 10px;
     text-align: left;
-    background: #fff;
+    background: green;
     box-shadow: inset 1px 3px 6px rgba(0, 0, 0, 0.12);
   }
   
   #progress-wrp .progress-bar {
     height: 100%;
     border-radius: 3px;
-    background-color: #f39ac7;
+    background-color: green;
     width: 0;
     box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.11);
   }
@@ -25,3 +25,4 @@
     display: inline-block;
     color: #000000;
   }
+  
