@@ -6,7 +6,7 @@ $(document).ready(function(){
     // client id of the project
 
     var clientId = "901713212660-i8k7slv5660tlioaq2qbbvq7tgvtm129.apps.googleusercontent.com";
-	
+
     // redirect_uri of the project
 
     var redirect_uri = "http://localhost:8080/SSDAssignment2/upload.html";
